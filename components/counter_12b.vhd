@@ -6,7 +6,7 @@ entity counter_12b is
     port(clk, ld_en, inc, clr: in std_logic;
          ld_value: in std_logic_vector(11 downto 0);   
          cnt_out : out std_logic_vector(11 downto 0));
-end counter_16b;
+end counter_12b;
 
 architecture rtl of counter_12b is
     signal reg : unsigned(11 downto 0);
